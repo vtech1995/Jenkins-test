@@ -14,7 +14,7 @@ pipeline {
         }
         stage('docker build') {
             steps {
-                sh 'sudo docker build /var/lib/jenkins/workspace/todo-app/Docker-pro/ -t todo-app'
+                sh 'sudo docker build /var/lib/jenkins/workspace/test/Docker-pro/ -t todo-app'
             }
         }
         stage('docker run') {
