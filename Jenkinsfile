@@ -22,5 +22,6 @@ pipeline {
                 sh 'sudo docker run -idt -p 8001:8001 todo-app:latest'
             }
         }
+  
     }
 }
